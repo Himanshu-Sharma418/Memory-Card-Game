@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="sustyle.css">
+        <script lang="text/javascript" src="suscript.js"></script>
+    </head>
+    <body>
+        <div class="orange">
+            <table class="sup"> 
+                <tr> 
+                    <td> Sign Up </td>
+                </tr>
+            </table>
+        </div>
+        <div class="form">
+            <form>
+                <table class="form">
+                    <tr>
+                        <td class="label"><label for="name">Name</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter Name"></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="Age">Age</label></td>
+                        <td><input type="number" id="age" name="age" placeholder="Enter Age"></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="email">E-mail</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter E-mail" required></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="pass">Password</label></td>
+                        <td><input type="password" name="pass" id="pass" placeholder="Enter Password" required></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="mobile">Mobile Number</label></td>
+                        <td><input type="number" name="mobile" id="mobile" placeholder="Enter Mobile Number"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="terms" id="terms">I Agree to the Terms of use</td>
+                    </tr>
+                </table>
+        </div>
+        <div class="orange">
+            <table class="orange">
+                <tr>
+                    <td class="button"> 
+                        <button class="submit" type="button" onclick="check()">Sign up</button>
+                        <a href="main.html"><button class="cancel" type="button">Cancel</button></a> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+div.header {
+    border: 5px solid;
+    border-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+div.name {
+    color: red;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.menu {
+    padding: 20px;
+    width: 50%;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: red;
+}
+
+.lg, .su {
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 11px;
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.su {
+    background-color: black;
+}
+
+.lg:hover, .su:hover {
+    border-radius: 10px;
+}
+
+.container {
+    border: 5px solid antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
+    align-items: center;
+    border-radius: 20px;
+    width: 96%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card-example {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin: 20px 0;
+    place-items: center;
+}

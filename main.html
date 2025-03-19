@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div id="header" class="header">
+        <div id="name" class="name">Memory Card Game</div>
+        <div id="menu" class="menu"> 
+            <a href="main.html">Home</a> &nbsp; 
+            <a href="about.html">About</a> &nbsp; 
+            <a href="login.html"><button type="button" class="lg">Login</button></a> &nbsp; 
+            <a href="signup.html"><button type="button" class="su">Signup</button></a> &nbsp; 
+        </div>
+    </div>
+    <br>
+    <div id="content" class="content">
+        <p>A simple card game to sharpen your memory!</p>
+        <p><a href="game.html" class="play">Play Now!</a></p> 
+    </div>
+    <br>
+    <div class="c2">
+        <div class="how">
+            <h2>How to Play</h2> <hr>
+            <ul>
+                <li>Find matching card pairs</li>
+                <li>Match all pairs to win</li>
+                <li>Lower moves = better score</li>
+                <li>Easy mode has a 3 second preview</li>
+                <li>Medium mode has a 1 second preview</li>
+                <li>Hard mode has no preview</li>
+            </ul>
+        </div>
+        <div>&nbsp;</div>
+        <div class="diff">
+            <h2>Difficulty</h2> <hr> <br> <br>
+            <p>Select your Difficulty to play the game.</p>
+            <input type="radio" id="easy" name="difficulty" value="Easy" class="easy" checked>
+            <label for="easy">Easy</label>
+            <input type="radio" id="medium" name="difficulty" class="medium" value="Medium">
+            <label for="medium">Medium</label>
+            <input type="radio" id="hard" name="difficulty" class="hard" value="Hard">
+            <label for="hard">Hard</label>
+        </div>
+    </div>
+    <script src="mainscript.js"></script>
+</body>
+</html>

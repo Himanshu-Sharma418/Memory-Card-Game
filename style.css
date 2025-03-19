@@ -1,0 +1,122 @@
+body {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+div.header {
+    border: 5px solid;
+    border-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+div.name {
+    color: red;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.menu {
+    padding: 20px;
+    width: 50%;
+    text-align: right;
+}
+
+div.diff, div.how {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.how {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: red;
+}
+
+.lg, .su, .play {
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 11px;
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: black;
+    inherits: false;
+}
+  
+@property --myColor2 {
+    syntax: '<color>';
+    initial-value: red;
+    inherits: false;
+}
+
+.play {
+    background: linear-gradient(to right, var(--myColor1), var(--myColor2));
+    transition: --myColor1 0.5s, --myColor2 0.5s;
+}
+
+.play:hover {
+    color: white;
+    text-decoration: none;
+    --myColor1: red;
+    --myColor2: black;
+}
+
+.su {
+    background-color: black;
+}
+
+.lg:hover, .su:hover {
+    border-radius: 10px;
+}
+
+div.content {
+    background-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);;
+    border: 5px solid;
+    border-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+}
+
+div.c2 {
+    height: 54vh;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
