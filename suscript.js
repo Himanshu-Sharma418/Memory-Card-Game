@@ -39,7 +39,7 @@ function check() {
 
     if (con) {
         alert("Signed Up Successfully!");
-        window.location.href = "main.html";
+        window.location.href = "index.html";
     }
     return;
 }
