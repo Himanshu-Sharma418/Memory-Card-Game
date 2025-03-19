@@ -10,6 +10,6 @@ function check() {
         alert("Please enter a valid password!");
         return;
     }
-    window.location.href = "main.html";
+    window.location.href = "index.html";
     return;
 }
